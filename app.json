@@ -1,0 +1,24 @@
+{
+    "edition": "202601",
+    "entrypoint": "index.html",
+    "min_sdk_version": "0.0.16",
+    "name": "PaperPoly",
+    "package_id": "com.ketong.paperpoly",
+    "permissions": [
+        {
+            "desc": "Capture voice commands from the glasses mic for paper trading.",
+            "name": "g2-microphone"
+        },
+        {
+            "desc": "Reach our own PaperPoly server for live Polymarket prices, paper bets and voice transcription.",
+            "name": "network",
+            "whitelist": [
+                "https://paperpoly.go.altare.global"
+            ]
+        }
+    ],
+    "supported_languages": [
+        "en"
+    ],
+    "version": "0.1.0"
+}
