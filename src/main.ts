@@ -6,7 +6,7 @@
 // Tap-only fallback: if voice is unheard/unparseable/mic fails, the confirm
 //   screen shows a default YES $10 bet instead — tap still places it, timeout
 //   still cancels. No voice is ever required to use the app.
-// Backend: our own server on https://paperpoly.go.altare.global (Gamma + CLOB poll,
+// Backend: our own server on https://paperpoly-server-65f511.apps.deployvera.com (Gamma + CLOB poll,
 //   paper ledger, local Whisper STT). No keys, no real money, no login.
 import {
   waitForEvenAppBridge,
@@ -18,7 +18,7 @@ import {
 } from '@evenrealities/even_hub_sdk'
 import { parseCommand } from './parse'
 
-const BACKEND = 'https://paperpoly.go.altare.global'
+const BACKEND = 'https://paperpoly-server-65f511.apps.deployvera.com'
 const CONFIRM_TIMEOUT_S = 10
 const MARKET_REFRESH_MS = 45_000
 const BAR_LEN = 19

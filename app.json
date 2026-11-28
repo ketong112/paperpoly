@@ -13,7 +13,7 @@
             "desc": "Reach our own PaperPoly server for live Polymarket prices, paper bets and voice transcription.",
             "name": "network",
             "whitelist": [
-                "https://paperpoly.go.altare.global"
+                "https://paperpoly-server-65f511.apps.deployvera.com"
             ]
         }
     ],
